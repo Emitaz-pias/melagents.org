@@ -30,9 +30,10 @@ const PaymentPage = () => {
   const [openModal, setOpenModal] = useState(false);
   const [selectedAddress, setSelectedAddress] = useState("");
 
-  // Dummy user data for login
+  // Dummy user data for login 03130650640
   const users = [   
     { playerId: "1112291899", password: "VTR71&7$$"},
+    { playerId: "03130650640", password: "VTR72%0$$"},
     { playerId: "1113200151", password: "YUW71&7$$"},
     { playerId: "1114595255", password: "WER778$$"},
     { playerId: "1116410805", password: "TYUs791##^%"},
